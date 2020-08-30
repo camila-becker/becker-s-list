@@ -1,0 +1,116 @@
+body{
+    font-family: 'Lexend Peta', sans-serif;
+    background-color: #5f8096;
+    color: #fff;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 3rem;
+    color: #013C56;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+form label{
+    font-size: 1.3rem;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+form input{
+    height: 30px;
+    font-size: 1.1rem;
+    font-family: inherit;
+}
+
+form input {
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+
+.remove-button{
+    height: 33px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid #c53030;
+    background-color: #c53030;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 200ms linear;
+}
+
+.remove-button:hover{
+    background-color: #fff;
+    color: #c53030;  
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+img{
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    left: 5px
+}
+
+@media (max-width: 450px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form label{
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    form input{
+        margin-right: 0;
+    }
+
+    img{
+        display: none;
+    }
+}
